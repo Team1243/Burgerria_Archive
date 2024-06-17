@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4825dfca018776648b47eb803244b8be, type: 3}
+  m_Name: TestCustomerInfo
+  m_EditorClassIdentifier: 
+  CustomerSprite: {fileID: 0}
+  CustomerName: 
+  m_scripts:
+  - optionScript: "\u314E\u3147"
+    answerScript: "\uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8\uC785\uB2C8\uB2E4."
+    answerType: 1
+    options:
+    - optionScript: "1\uBC88"
+      answerScript: "1\uBC88\uC744 \uC120\uD0DD\uD558\uC168\uC2B5\uB2C8\uB2E4. "
+      answerType: 0
+      options: []
+    - optionScript: "2\uBC88"
+      answerScript: "2\uBC88\uC744 \uC120\uD0DD\uD558\uC168\uC2B5\uB2C8\uB2E4."
+      answerType: 1
+      options:
+      - optionScript: "\uC624\uCF00\uC774"
+        answerScript: "YS\uB294 \uBABB\uB9D0\uB824"
+        answerType: 0
+        options: []

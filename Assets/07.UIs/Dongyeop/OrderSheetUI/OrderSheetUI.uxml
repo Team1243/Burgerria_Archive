@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/07.UIs/Dongyeop/OrderSheetUI/OrderSheetUI.uss?fileID=7433441132597879392&amp;guid=aaa9b05f30031b149af364ce3a2eba73&amp;type=3#OrderSheetUI" />
+    <ui:VisualElement name="container" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; justify-content: center;">
+        <ui:VisualElement name="order-sheet-01" picking-mode="Ignore" class="order-sheet" style="width: 1300px; height: 1200px; align-items: center; -unity-background-scale-mode: scale-to-fit;">
+            <ui:VisualElement name="timer" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: flex-start; width: 1200px; height: 100px; flex-direction: row;">
+                <ui:VisualElement name="timer-value" picking-mode="Ignore" style="height: 100px; width: 100%; background-color: rgba(255, 0, 0, 0); border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="burger-render" picking-mode="Ignore" class="burger-render" />
+            <ui:VisualElement name="items" picking-mode="Ignore" style="position: absolute; top: 1200px; width: 1100px; height: 190px; flex-direction: row; justify-content: center;">
+                <ui:VisualElement name="item00" picking-mode="Ignore" class="item">
+                    <ui:VisualElement name="icon" style="flex-grow: 1; -unity-background-image-tint-color: rgba(253, 61, 61, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Check.psd?fileID=2800000&amp;guid=b13234d935cbfe344a11d9c0dd57bcdd&amp;type=3#Check&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="item01" picking-mode="Ignore" class="item">
+                    <ui:VisualElement name="icon" style="flex-grow: 1; -unity-background-image-tint-color: rgba(253, 61, 61, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Check.psd?fileID=2800000&amp;guid=b13234d935cbfe344a11d9c0dd57bcdd&amp;type=3#Check&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="item02" picking-mode="Ignore" class="item">
+                    <ui:VisualElement name="icon" style="flex-grow: 1; -unity-background-image-tint-color: rgba(253, 61, 61, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Check.psd?fileID=2800000&amp;guid=b13234d935cbfe344a11d9c0dd57bcdd&amp;type=3#Check&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="item03" picking-mode="Ignore" class="item">
+                    <ui:VisualElement name="icon" style="flex-grow: 1; -unity-background-image-tint-color: rgba(253, 61, 61, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Check.psd?fileID=2800000&amp;guid=b13234d935cbfe344a11d9c0dd57bcdd&amp;type=3#Check&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="item04" picking-mode="Ignore" class="item">
+                    <ui:VisualElement name="icon" style="flex-grow: 1; -unity-background-image-tint-color: rgba(253, 61, 61, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Check.psd?fileID=2800000&amp;guid=b13234d935cbfe344a11d9c0dd57bcdd&amp;type=3#Check&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score" picking-mode="Ignore" style="position: absolute; right: 0; font-size: 250px; -unity-font-definition: url(&apos;project://database/Assets/99.Others/Dongyeop/Fonts/ImcreSoojin/ImcreSoojin%20SDF.asset?fileID=11400000&amp;guid=ac6fd531c8125474687e436a2bf17d05&amp;type=2#ImcreSoojin SDF&apos;);" />
+        <ui:VisualElement name="timer" picking-mode="Ignore" style="flex-grow: 1; position: absolute; left: 0; top: 0; background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Timer.psd?fileID=21300000&amp;guid=3602cb200a2f2a446a2bd5499d3b3519&amp;type=3#Timer&apos;); width: 500px; height: 500px; align-items: center; justify-content: center;">
+            <ui:VisualElement name="back-image" style="flex-grow: 1; position: absolute; width: 310px; height: 310px; background-color: rgb(255, 255, 255); border-top-left-radius: 738px; border-top-right-radius: 738px; border-bottom-right-radius: 738px; border-bottom-left-radius: 738px;" />
+            <NS.RomanLib.RadialFillElement name="timer-fill" width="310" height="310" fill-direction="AntiClockwise" fill-color="#FF0000FF" style="width: 100%; height: 100%; overflow: hidden; border-top-left-radius: 1731px; border-top-right-radius: 1731px; border-bottom-right-radius: 1731px; border-bottom-left-radius: 1731px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="burger-area" picking-mode="Ignore" style="width: 100%; height: 100%; position: absolute; align-items: center; justify-content: center;">
+            <ui:VisualElement name="ended-burger" picking-mode="Ignore" class="burger" style="background-image: url(&apos;project://database/Assets/99.Others/Dongyeop/RenderTexture/Burger.renderTexture?fileID=8400000&amp;guid=1dfd023eb3e2a564291be83cdc99761c&amp;type=2#Burger&apos;);" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="1s" parse-escape-sequences="true" display-tooltip-when-elided="true" name="time-label" class="time-label" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00.Scenes/Dongyeop/Setting.unity
+    guid: 0fb5d9bc31119b44fb29352f773cf829
+  - enabled: 1
+    path: Assets/00.Scenes/Dongyeop/Intro.unity
+    guid: 1f0b44cfd32e1d047a5899adc641efb7
+  - enabled: 1
+    path: Assets/00.Scenes/Dongyeop/NewDongyeop.unity
+    guid: 9252130c97404ff42869e330bd047e2a
+  m_configObjects: {}

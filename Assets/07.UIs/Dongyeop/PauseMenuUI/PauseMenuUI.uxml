@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/07.UIs/Dongyeop/PauseMenuUI/PauseMenuUI.uss?fileID=7433441132597879392&amp;guid=7ef31a0e57e344f4780728af9377ed80&amp;type=3#PauseMenuUI" />
+    <ui:VisualElement name="container" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="pause-panel" class="pause-panel" style="align-items: center; background-color: rgb(42, 46, 55); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; border-left-color: rgb(229, 37, 84); border-right-color: rgb(229, 37, 84); border-top-color: rgb(229, 37, 84); border-bottom-color: rgb(229, 37, 84); border-top-width: 20px; border-right-width: 20px; border-bottom-width: 20px; border-left-width: 20px;">
+            <ui:Toggle label="BGM" name="bgm-toggle" class="toggle" style="margin-top: 850px;" />
+            <ui:Toggle label="SFX" name="sfx-toggle" class="toggle" style="left: 0;" />
+            <ui:Button text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-button" class="button" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit-button" class="button" />
+            <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="cancel-button" style="position: absolute; left: 1186px; top: 50px; width: 200px; height: 200px; font-size: 175px; background-color: rgb(42, 46, 55); color: rgb(255, 255, 255); -unity-font-definition: url(&apos;project://database/Assets/99.Others/Dongyeop/Fonts/ImcreSoojin/ImcreSoojin%20SDF.asset?fileID=11400000&amp;guid=ac6fd531c8125474687e436a2bf17d05&amp;type=2#ImcreSoojin SDF&apos;); border-left-color: rgb(229, 37, 84); border-right-color: rgb(229, 37, 84); border-top-color: rgb(229, 37, 84); border-bottom-color: rgb(229, 37, 84); border-top-width: 14px; border-right-width: 14px; border-bottom-width: 14px; border-left-width: 14px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

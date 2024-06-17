@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="OptionBTN&apos;" src="project://database/Assets/07.UIs/Damin/Reference/OptionBTN.uxml?fileID=9197481963319205126&amp;guid=39c5eb819e1cb7b42836d6194c1d621d&amp;type=3#OptionBTN" />
+    <ui:VisualElement name="BackGround-Image" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/02.Sprites/Damin/UI/draw-a-picture-of-a-store-with-a-counter-in-front-as-shown-from-the-perspective-of-the-picture-pres%20(1).png?fileID=21300000&amp;guid=12dc744de7ae80e47a17cfa20099bd3c&amp;type=3#draw-a-picture-of-a-store-with-a-counter-in-front-as-shown-from-the-perspective-of-the-picture-pres (1)&apos;); -unity-background-scale-mode: scale-and-crop; width: 100%; height: 100%; position: absolute;" />
+    <ui:VisualElement name="InGame-Visual" style="flex-grow: 1;">
+        <ui:VisualElement name="Top-Visual" style="flex-grow: 0; width: 100%; height: 50%;">
+            <ui:VisualElement name="TextBox-Visual" style="flex-grow: 0; align-items: center; justify-content: flex-end; width: 79%; height: 335px; align-self: center; top: 3%; background-image: url(&apos;project://database/Assets/02.Sprites/Damin/UI/Red/Red/Panel%20(5)Red.png?fileID=21300000&amp;guid=ca2a01337285b314095a0b9e63c42532&amp;type=3#Panel (5)Red&apos;); padding-top: 32px; padding-bottom: 32px; padding-right: 3.5%; padding-left: 3.5%;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Customer-Label" picking-mode="Ignore" style="height: 100%; width: 100%; font-size: 50px; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&apos;); -unity-font-definition: url(&apos;project://database/Assets/99.Others/Dongyeop/Fonts/ImcreSoojin/ImcreSoojin%20SDF.asset?fileID=11400000&amp;guid=ac6fd531c8125474687e436a2bf17d05&amp;type=2#ImcreSoojin SDF&apos;); color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 100%; flex-direction: row; align-items: center; justify-content: center; align-self: center; margin-top: 21px;">
+                <ui:Instance template="OptionBTN&apos;" name="OptionBTN" style="flex-grow: 0; align-items: center; height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bttom-Visual" style="flex-grow: 1;">
+            <ui:VisualElement name="Customer-Visual" style="align-items: center; justify-content: flex-end; align-self: flex-start; width: 350px; height: 600px; background-color: rgba(38, 255, 0, 0.66); position: relative; bottom: -10px; left: 3%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

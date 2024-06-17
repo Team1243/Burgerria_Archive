@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/07.UIs/Dongyeop/TitleUI/TitleUI.uss?fileID=7433441132597879392&amp;guid=b68973d0e7b916f4db3ecb6ac64f91ca&amp;type=3#TitleUI" />
+    <ui:VisualElement style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/02.Sprites/Damin/Bugers/StartScene.png?fileID=21300000&amp;guid=66362bd39e7e8e347b790a0d8325446c&amp;type=3#StartScene&apos;); -unity-background-scale-mode: scale-and-crop; display: none;" />
+    <ui:VisualElement name="contianer" style="flex-grow: 1; align-items: center; justify-content: space-between;">
+        <ui:Label tabindex="-1" text="버거리아" parse-escape-sequences="true" display-tooltip-when-elided="true" name="game-name" class="game-name" />
+        <ui:Label tabindex="-1" text="Touch To Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="touch-to-play" class="touch-to-play" />
+    </ui:VisualElement>
+</ui:UXML>

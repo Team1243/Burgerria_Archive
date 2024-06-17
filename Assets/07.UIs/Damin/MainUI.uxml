@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="InStoreScreen" src="project://database/Assets/07.UIs/Damin/Screens/InStoreScreen.uxml?fileID=9197481963319205126&amp;guid=718d37ee42ab52245abd1a789c103ee2&amp;type=3#InStoreScreen" />
+    <ui:Instance template="InStoreScreen" name="InStoreScreen" style="flex-grow: 1;" />
+</ui:UXML>

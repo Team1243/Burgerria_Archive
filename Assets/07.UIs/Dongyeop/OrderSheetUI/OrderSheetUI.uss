@@ -1,0 +1,86 @@
+.order-sheet {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 135px;
+    border-bottom-left-radius: 135px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.item {
+    height: 210px;
+    width: 210px;
+    background-color: rgb(188, 211, 217);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -unity-background-scale-mode: scale-to-fit;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.burger {
+    width: 800px;
+    height: 800px;
+    background-image: url('project://database/Assets/99.Others/Dongyeop/RenderTexture/Burger.renderTexture?fileID=8400000&guid=1dfd023eb3e2a564291be83cdc99761c&type=2#Burger');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    top: 0;
+    transition-property: -unity-background-image-tint-color, top;
+    transition-duration: 0.4s, 0.3s;
+    transition-timing-function: ease-in-circ, ease;
+}
+
+.burger.show {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.burger.up {
+    top: -100%;
+}
+
+.burger-render {
+    width: 1000px;
+    height: 1000px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/99.Others/Dongyeop/RenderTexture/Burger.renderTexture?fileID=8400000&guid=1dfd023eb3e2a564291be83cdc99761c&type=2#Burger');
+    transition-timing-function: ease-in-back;
+    transition-duration: 0.15s;
+}
+
+.burger-render.big {
+    width: 1350px;
+    height: 1350px;
+}
+
+.time-label {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/99.Others/Dongyeop/Fonts/ImcreSoojin/ImcreSoojin%20SDF.asset?fileID=11400000&guid=ac6fd531c8125474687e436a2bf17d05&type=2#ImcreSoojin SDF');
+    transition-property: font-size, left, top;
+    transition-duration: 0.2s, 0.3s, 0.3s;
+    transition-timing-function: ease-out-cubic, ease-in-cubic, ease-in-cubic;
+}
+
+.time-label.show {
+    font-size: 200px;
+}
+
+.time-label.up {
+    left: 5%;
+    top: 5%;
+}

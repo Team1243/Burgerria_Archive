@@ -1,0 +1,67 @@
+.pause-panel {
+    width: 1500px;
+    height: 2250px;
+    background-color: rgb(255, 255, 255);
+    top: 150%;
+}
+
+.pause-panel.show {
+    top: 0;
+}
+
+.toggle {
+    width: 600px;
+    height: 200px;
+}
+
+.toggle Label {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/99.Others/Dongyeop/Fonts/ImcreSoojin/ImcreSoojin%20SDF.asset?fileID=11400000&guid=ac6fd531c8125474687e436a2bf17d05&type=2#ImcreSoojin SDF');
+}
+
+.toggle VisualElement {
+    width: 150px;
+    height: 150px;
+    margin-left: 75px;
+    flex-direction: row-reverse;
+}
+
+.toggle VisualElement #unity-checkmark {
+    background-color: rgb(42, 46, 55);
+    border-left-color: rgb(229, 37, 84);
+    border-right-color: rgb(229, 37, 84);
+    border-top-color: rgb(229, 37, 84);
+    border-bottom-color: rgb(229, 37, 84);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.button {
+    width: 600px;
+    height: 200px;
+    font-size: 100px;
+    margin-top: 50px;
+    border-left-color: rgb(229, 37, 84);
+    border-right-color: rgb(229, 37, 84);
+    border-top-color: rgb(229, 37, 84);
+    border-bottom-color: rgb(229, 37, 84);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(42, 46, 55);
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/99.Others/Dongyeop/Fonts/ImcreSoojin/ImcreSoojin%20SDF.asset?fileID=11400000&guid=ac6fd531c8125474687e436a2bf17d05&type=2#ImcreSoojin SDF');
+}

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">218546081210</string>
+  <string name="google_storage_bucket" translatable="false">burgerria-5ad44.appspot.com</string>
+  <string name="project_id" translatable="false">burgerria-5ad44</string>
+  <string name="google_api_key" translatable="false">AIzaSyA0Bl9UnISyhwYM3CvIv-WdEuWo-drTMJs</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0Bl9UnISyhwYM3CvIv-WdEuWo-drTMJs</string>
+  <string name="google_app_id" translatable="false">1:218546081210:android:d46e276f4b2bfc51b2a183</string>
+</resources>

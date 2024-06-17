@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218546081210",
+    "project_id": "burgerria-5ad44",
+    "storage_bucket": "burgerria-5ad44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218546081210:android:d46e276f4b2bfc51b2a183",
+        "android_client_info": {
+          "package_name": "com.Team1243.Burgerria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Bl9UnISyhwYM3CvIv-WdEuWo-drTMJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

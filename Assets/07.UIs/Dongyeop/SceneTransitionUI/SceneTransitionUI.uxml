@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="container" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="scene-transition-image" picking-mode="Ignore" style="width: 2160px; height: 4320px; background-image: url(&apos;project://database/Assets/99.Others/Dongyeop/RenderTexture/SceneTransitionTexture.renderTexture?fileID=8400000&amp;guid=551d3deec1176814fafa30a6e647ce61&amp;type=2#SceneTransitionTexture&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

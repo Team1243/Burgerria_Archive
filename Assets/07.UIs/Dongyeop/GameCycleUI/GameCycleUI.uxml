@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/07.UIs/Dongyeop/GameCycleUI/GameCycleUI.uss?fileID=7433441132597879392&amp;guid=e343ea20a27a3ed4cbec4a16ccc6c69a&amp;type=3#GameCycleUI" />
+    <ui:VisualElement name="container" picking-mode="Ignore" style="flex-grow: 1;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="game-pnael" class="panel show" style="width: 100%; height: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; background-color: rgba(255, 138, 138, 0.49);">
+            <ui:VisualElement name="score-area" picking-mode="Ignore" style="height: 20%; width: 100%; align-items: center; justify-content: center;">
+                <ui:Label tabindex="-1" text="Current" parse-escape-sequences="true" display-tooltip-when-elided="true" name="current-score" picking-mode="Ignore" style="-unity-text-align: middle-center; font-size: 185px; color: rgb(0, 0, 0); -unity-font-definition: url(&apos;project://database/Assets/99.Others/Dongyeop/Fonts/Gwangyang%20Touching/Gwangyang%20Touching%20SDF.asset?fileID=11400000&amp;guid=bbc58f473418cdc498cead50de980eee&amp;type=2#Gwangyang Touching SDF&apos;);" />
+                <ui:Label tabindex="-1" text="Best: " parse-escape-sequences="true" display-tooltip-when-elided="true" name="best-score" picking-mode="Ignore" style="-unity-text-align: middle-center; font-size: 100px; color: rgb(0, 0, 0); -unity-font-definition: url(&apos;project://database/Assets/99.Others/Dongyeop/Fonts/Gwangyang%20Touching/Gwangyang%20Touching%20SDF.asset?fileID=11400000&amp;guid=bbc58f473418cdc498cead50de980eee&amp;type=2#Gwangyang Touching SDF&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button-area" picking-mode="Ignore" style="height: 10%; flex-direction: row; align-items: center; justify-content: center; width: 100%;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="home-button" class="circle-icon">
+                    <ui:VisualElement name="image" picking-mode="Ignore" style="background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Icon/HomeIcon.psd?fileID=21300000&amp;guid=611f6d9965c0ac749a506bb317428e14&amp;type=3#HomeIcon&apos;); width: 90%; height: 90%;" />
+                </ui:Button>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="setting-button" class="circle-icon">
+                    <ui:VisualElement name="image" picking-mode="Ignore" style="background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Icon/Setting%20Icon.png?fileID=21300000&amp;guid=a9801b27f84f0064d8eaec7a430d1980&amp;type=3#Setting Icon&apos;); width: 70%; height: 70%;" />
+                </ui:Button>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit-button" class="circle-icon">
+                    <ui:VisualElement name="image" picking-mode="Ignore" style="background-image: url(&apos;project://database/Assets/02.Sprites/Dongyeop/Icon/Exit%20Icon.png?fileID=21300000&amp;guid=e43f48cdaa6f90444a2e0b143fa7ae68&amp;type=3#Exit Icon&apos;); width: 60%; height: 60%;" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:Button>
+        <ui:VisualElement name="start-counter" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; justify-content: center; align-items: center;">
+            <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="count-label" class="count-label" style="-unity-font-definition: url(&apos;project://database/Assets/99.Others/Dongyeop/Fonts/Gwangyang%20Touching/Gwangyang%20Touching%20SDF.asset?fileID=11400000&amp;guid=bbc58f473418cdc498cead50de980eee&amp;type=2#Gwangyang Touching SDF&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
